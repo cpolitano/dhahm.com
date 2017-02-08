@@ -1,12 +1,24 @@
-.container {
-	background-color: #FFFEEC;
+a {
 	color: #5A584F;
-	height: 100%;
+	margin: 1em;
+	text-decoration: none;
+}
+
+.container {
+	background: url("/public/DHAHM-little-songs.jpg") no-repeat top center fixed #FFFEEC;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #5A584F;
+	min-height: 100vh;
 	margin: 0;
 	text-align: center;
 	width: 100%;
 }
 
-.hero {
+.about, .listen {
+	background-color: #FFFEEC;
+	min-height: 100vh;
 	width: 100%;
 }
