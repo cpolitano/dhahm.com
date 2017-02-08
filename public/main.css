@@ -1,0 +1,12 @@
+.container {
+	background-color: #FFFEEC;
+	color: #5A584F;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.hero {
+	width: 100%;
+}
