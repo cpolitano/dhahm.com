@@ -87,7 +87,8 @@ header {
 }
 
 .listen_text {
-	margin: 1em 2em;
+	margin: 1em auto;
+	text-align: center;
 }
 
 .listen_link {
