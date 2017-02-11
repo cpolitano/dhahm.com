@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<title>DHAHM</title>
 	<link rel="stylesheet" href="public/main.css">
+	<link rel="stylesheet" href="public/webfonts/ss-social-regular.css" />
 </head>
 <body>
 	<div class="listen">
-		<header>
-			<a href="/" class="header_link">Home</a>
-			<a href="/about" class="header_link">About</a>
-		</header>
+		{{template "header" .}}
+		<div class="listen_text">
+			<p>complete discography at <a href="https://dhahm.bandcamp.com/" target="_blank" class="listen_link">Bandcamp.</a></p> 
+		</div>
 		<div class="albums">
 			<div class="album">
 				<iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=1588663183/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://dhahm.bandcamp.com/album/blow">Blow by DHAHM</a></iframe>
